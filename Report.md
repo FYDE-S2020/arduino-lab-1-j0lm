@@ -28,7 +28,7 @@ Team Number: F13
 
 6. What is the difference between synchronous and asynchronous communication?
 
-    your answer here
+    Synchronous communication only allows 1 thing to be executed at a time, whereas asynchronous alows for multiple things to be executed at the same tim
 
 7. Profile of UART: Sent X bytes in Y time 
 
@@ -40,34 +40,34 @@ Team Number: F13
 
 9. Why is SPI so much faster than UART?
 
-    your answer here
+    SPI is synchronous while UART is asynchronous
 
 10. list one pro and one con of UART
 
-    your answer here
+    Pro: Not very complicated hardware wise, Con: Slow compared to other options
 
 11. list one pro and one con of SPI
 
-    your answer here
+    Pro: Data can be transferred at high speed in tens of MHz, Con: No flow control
 
 12. list one pro and one con of I2C
 
-    your answer here
+    Pro: Flow control, Con: The hardware complexity increases when number of master/slave devices are more in the circuit
 
 13. Why does I2C need external resistors to work?
 
-    your answer here
+    Lines are open drain
 
 ## Screenshots
 
 Procedure A, step 1:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/Saleae SS1.png)
 
 Procedure A, step 4:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/Saleae SS2.png)
 
 Procedure B, UART:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/Saleae SS3.png)
 
 Procedure B, SPI:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/Saleae SS4.png)
