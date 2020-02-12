@@ -5,32 +5,15 @@ void setup() {
  pinMode(LED_PIN, OUTPUT);
 }
 
-void timedBlink(){
+void timedBlink(int time){
   digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(250);                       // wait for a second
+  delay(time);                       // wait for a second
   digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(250);                       // wait for a second  
-  digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(500);                       // wait for a second
-  digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(500);         
-  digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for a second
-  digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);       
-}
+  delay(time);                       // wait for a second  
+  }
 
 void loop() {
-  digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(250);                       // wait for a second
-  digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(250);                       // wait for a second  
-  digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(500);                       // wait for a second
-  digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(500);         
-  digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for a second
-  digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);       
+timedBlink(250);
+timedBlink(500);
+timedBlink(1000);
 }
