@@ -61,13 +61,13 @@ Team Number: F13
 ## Screenshots
 
 Procedure A, step 1:
-![Put path to your image here ->](/img/Saleae SS1.png)
+![Put path to your image here ->](https://github.com/FYDE-S2020/arduino-lab-1-j0lm/blob/master/img/Saleae%20SS1.png)
 
 Procedure A, step 4:
-![Put path to your image here ->](/img/Saleae SS2.png)
+![Put path to your image here ->](https://github.com/FYDE-S2020/arduino-lab-1-j0lm/blob/master/img/Saleae%20SS2.png)
 
 Procedure B, UART:
-![Put path to your image here ->](/img/Saleae SS3.png)
+![Put path to your image here ->](https://github.com/FYDE-S2020/arduino-lab-1-j0lm/blob/master/img/Saleae%20SS3.png)
 
 Procedure B, SPI:
-![Put path to your image here ->](/img/Saleae SS4.png)
+![Put path to your image here ->](https://github.com/FYDE-S2020/arduino-lab-1-j0lm/blob/master/img/Saleae%20SS4.png)
