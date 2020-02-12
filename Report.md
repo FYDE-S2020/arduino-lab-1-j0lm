@@ -8,23 +8,23 @@ Team Number: F13
 
 1. Why does your program need a setup and a loop?
 
-    You need to set up what pins will be the inputs and the outputs and you need the loop so that the program will run continuously, resulting in the light blnking on and off
+    You need to set up what pins will be the inputs and the outputs and you need the loop so that the program will run continuously, resulting in the light blinking on and off continuously
 
 2. What is the downside to putting all your code in a loop?
 
-    your answer here
+    It can make the program run less efficiently since you would be running all code in the loop, even the unnecessary code.
 
 3. Why does your code need to be compiled?
 
-    your answer here
+    It needs to be compiled into machine code so that the Arduino can understand it.
 
 4. When lowering the frequency in procedure A, step 4, what is going wrong? Brainstorm some solutions. Dimmers exist in the real world. What is their solution?
 
-    your answer here
+    The LED turns on and off very distinctly. A solution could be to either keep the frequency high, or do something with the current running through the LED.
 
 5. Why do you need to connect the logic analyzer ground to the ESP32 ground?
 
-    your answer here
+    To complete the circuit with the Arduino
 
 6. What is the difference between synchronous and asynchronous communication?
 
@@ -32,11 +32,11 @@ Team Number: F13
 
 7. Profile of UART: Sent X bytes in Y time 
 
-    your answer here
+    Sent 11 bytes in 0.417ms
 
 8. Profile of SPI: Sent X bytes in Y time
 
-    your answer here
+    Sent 5 bytes in 0.154ms
 
 9. Why is SPI so much faster than UART?
 
