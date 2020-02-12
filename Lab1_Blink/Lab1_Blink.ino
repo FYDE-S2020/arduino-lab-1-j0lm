@@ -1,4 +1,5 @@
 #define LED_PIN 2
+#define LED_BUILTIN 2
 
 void setup() {
   // put your setup code here, to run once:
@@ -12,8 +13,22 @@ void timedBlink(int time){
   delay(time);                       // wait for a second  
   }
 
+void dimmer(int freq, int duty) {
+  int period, onTime, offTime;
+  period = 1000/freq;
+  onTime = period * duty / 100;
+  offTime = period - onTime;
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(onTime);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(offTime);
+}
+
 void loop() {
-timedBlink(250);
-timedBlink(500);
-timedBlink(1000);
+  for (int i = 0; i < 100 ; i++) {
+    dimmer(10, i);
+  }
+  for (int i = 100; i > 0 ; i--) {
+    dimmer(10, i);
+  }
 }

@@ -1,14 +1,14 @@
-Name:
+Name: Jose Olmedo Jr
 
-EID:
+EID: jo25785
 
-Team Number:
+Team Number: F13
 
 ## Questions
 
 1. Why does your program need a setup and a loop?
 
-    your answer here
+    You need to set up what pins will be the inputs and the outputs and you need the loop so that the program will run continuously, resulting in the light blnking on and off
 
 2. What is the downside to putting all your code in a loop?
 
