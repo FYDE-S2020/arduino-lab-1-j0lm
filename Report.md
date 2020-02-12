@@ -61,13 +61,13 @@ Team Number: F13
 ## Screenshots
 
 Procedure A, step 1:
-(img/Saleae SS1.png)
+![Put path to your image here ->](img/Saleae SS1.png)
 
 Procedure A, step 4:
-(img/Saleae SS2.png)
+![Put path to your image here ->](img/Saleae SS2.png)
 
 Procedure B, UART:
-(img/Saleae SS3.png)
+![Put path to your image here ->](img/Saleae SS3.png)
 
 Procedure B, SPI:
-(img/Saleae SS4.png)
+![Put path to your image here ->](img/Saleae SS4.png)
